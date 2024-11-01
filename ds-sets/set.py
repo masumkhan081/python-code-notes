@@ -34,9 +34,6 @@ for color in colors:
     print(color)
 
 # Nesting a set in a dictionary
-person = {
-    "name": "Alice",
-    "favorite_colors": colors
-}
+person = {"name": "Alice", "favorite_colors": colors}
 
 print("Person dictionary with a set:", person)
